@@ -1,0 +1,14 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        kube01:
+          ansible_user: snowy
+          ansible_host: 192.168.86.31
+        kube02:
+          ansible_user: snowy
+          ansible_host: 192.168.86.32
+        kube03:
+          ansible_user: snowy
+          ansible_host: 192.168.86.33
